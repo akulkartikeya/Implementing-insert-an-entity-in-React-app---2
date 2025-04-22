@@ -1,0 +1,102 @@
+/* src/components/AddMovie.css */
+*{
+    color: #000000;
+}
+.add-movie-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-movie-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: calc(100% - 22px); /* Adjust for padding and border */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+  font-size: 16px;
+  appearance: none; /* Remove default arrow for better styling */
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="%23343a40" viewBox="0 0 4 5"><path d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: 50%;
+  padding-right: 30px; /* Make space for the custom arrow */
+}
+
+.form-textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: inherit; /* Inherit font from the parent */
+}
+
+.form-button-container {
+  margin-top: 20px;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-button.cancel {
+  background-color: #6c757d;
+}
+
+.form-button.cancel:hover {
+  background-color: #545b62;
+}
+
+/* Optional: Style for error messages */
+.form-error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}

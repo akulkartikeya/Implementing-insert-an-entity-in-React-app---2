@@ -1,5 +1,4 @@
 /* src/components/Dashboard.css */
-
 .dashboard {
   padding: 20px;
 }
@@ -9,6 +8,10 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+h1{
+  color: white;
 }
 
 .add-movie-button {
@@ -28,4 +31,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  color: white;
 }
